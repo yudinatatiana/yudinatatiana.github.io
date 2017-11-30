@@ -64,7 +64,8 @@ img{
 	display: none;
 	background-color: #80bfdb;
 	text-align: center;
-	max-width: 50%;
+	max-width: 80%;
+	min-width: 50%
 	color: #237385;
 	font-family: 'Dosis', sans;
 	font-size: 100%;
