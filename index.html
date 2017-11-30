@@ -9,6 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+		$('.text_block').hide();
+		$('.botr').click(function(){
+    	$(this).next().toggle()});
+		});
+	</script>
   </head>
   <body>
   	<div id="header">
@@ -16,14 +24,61 @@
   			Tatiana Yudina
   		</div>
   	</div>
-  	<div id="menu">
-  		<a href="#main" class="botr">Основное</a>  	
-  		<a href="#" class="botr">Интересы</a> 
+
+  	<div class="menu_1">
+  		<a href="#" class="botr"> Основное</a>	
+  		<div class="text_block">Студентка НИУ ВШЭ Московского кампуса</div>
+  		<a href="#" class="botr">Интересы</a>
+  		<div class="text_block">
+  			<ul>
+  				<li>Музыка</li>
+  				<li>Фотография</li> 
+  				<li>Статьи</li>
+  			</ul>
+  		</div>
   		<a href="#" class="botr">Образование</a>
-  		<a href="#" class="botr">Работы</a>
+  		<div class="text_block">
+  			<ul>
+  				<li>Детская музыкальная школа по классу скрипки</li>
+  				<li>Гуманитарный класс общеобразовательной школы</li>
+  			</ul>
+  		</div>
   		<a href="#" class="botr">Контакты</a>
-  	</div>
-    
+  		<div class="text_block">
+  			<ul>
+  				<li>VK: https://vk.com/tanya.yudina</li>
+  				<li>Instagram: https://www.instagram.com/yu_tatiana</li>  
+  				<li>Github: https://github.com/yudinatatiana</li>	
+  				<li>Почта: tayudina_2@edu.hse.ru</li>	
+  			</ul>
+  		</div>
+  	</div> 
+
+  	<div id="foto_container">
+    	<div class="container">
+    		<div class='row'>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/PICT0055.JPG></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/PICT0032.JPG></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/PICT0064.JPG></div>
+
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_0063.JPG></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_0086.JPG></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_0124.JPG></div>
+
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_4534.jpg></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_4556.jpg></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_4535.jpg></div>
+
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_9680.JPG></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_9682.JPG></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_9778.JPG></div>
+
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_4407.JPG></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_8272.JPG></div>
+    			<div class='image-block col-xs-12 col-sm-6 col-md-4 col-lg-4'><img src=images/DSC_4411.JPG></div>
+    		</div>
+    	</div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
